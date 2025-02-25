@@ -31,7 +31,7 @@
 .sign-up, .log-in {
     width: 65px;
     height: 25px;
-    border-radius: 8px;
+    border-radius: 12.5px;
     background-color: rgb(255, 90, 90);
     border: 2px solid rgb(255, 90, 90);
     color: white;
@@ -54,6 +54,6 @@
 }
 
 .test {
-    padding-top: 50px;
+    padding-top: 70px;
     width: 10px;
 }
