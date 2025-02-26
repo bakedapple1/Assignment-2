@@ -88,26 +88,24 @@
 }
 
 .movies,
-.movie-labels {
+.poster {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
 
-.movie-labels,
+.mov-label,
 .featured-header {
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.movie-labels {
+.mov-label {
     font-size: 40px;
 }
 
-.mov1,
-.mov2,
-.mov3 {
+.poster {
     width: 250px;
     height: 350px;
 }
