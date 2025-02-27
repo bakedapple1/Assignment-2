@@ -72,13 +72,16 @@
         1px 1px 0 black;
 }
 
-
 .hero {
     margin-top: 170px;
 }
 
 .hero-poster {
     width: 100%;
+}
+
+.hero-label {
+font-size: 100px;
 }
 
 .featured-section {
@@ -97,7 +100,8 @@
 }
 
 .mov-label,
-.featured-header {
+.featured-header,
+.hero-label {
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
