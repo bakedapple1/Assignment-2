@@ -72,26 +72,28 @@
         1px 1px 0 black;
 }
 
-.test {
-    width: 10px;
+
+.hero {
+    margin-top: 170px;
+}
+
+.hero-poster {
+    width: 100%;
 }
 
 .featured-section {
     display: grid;
-    grid-template-rows: 210px, 350px, 250px;
-    margin-top: 170px;
+    grid-template-rows: repeat(2, auto);
+    margin-top: 100px;
 }
 
-.featured-header {
-    justify-self: center;
-    font-size: 70px;
-}
-
-.movies,
-.poster {
+.featured-movies {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    height: 1100px;
     justify-items: center;
+    align-items: center;
 }
 
 .mov-label,
@@ -99,13 +101,19 @@
     font-family: "Bebas Neue", serif;
     font-weight: 400;
     font-style: normal;
+    justify-self: center;
+    color: rgb(255, 75, 75);
 }
 
 .mov-label {
     font-size: 40px;
 }
 
+.featured-header {
+    font-size: 90px;
+}
+
 .poster {
-    width: 250px;
-    height: 350px;
+    width: 300px;
+    height: 450px;
 }
