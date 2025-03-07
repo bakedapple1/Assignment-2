@@ -154,7 +154,7 @@
     grid-template-rows: repeat(2, auto);
 }
 
-.footer>* {
+.footer > * {
     align-items: center;
     justify-items: center;
     display: grid;
@@ -180,7 +180,7 @@
 
     .featured-movies {
         grid-template-columns: repeat(2, 1fr);
-        height: 2200px;
+        height: 1650px;
     }
 
     .featured-section {
