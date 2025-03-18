@@ -102,6 +102,7 @@
 
 .hero-poster {
     width: 90vw;
+    margin-top: 1.25vw;
     align-self: center;
     transition: 0.8s;
 }
@@ -112,6 +113,7 @@
 }
 
 .hero-poster:hover {
+    margin-top: 0vw;
     width: 95vw;
 }
 
@@ -151,8 +153,8 @@
 }
 
 .poster:hover {
-    width: 345px;
-    height: 517.5px;
+    width: 330px;
+    height: 495px;
 }
 
 /* FOOTER SECTION */
